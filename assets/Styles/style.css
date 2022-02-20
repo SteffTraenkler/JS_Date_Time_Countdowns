@@ -1,0 +1,34 @@
+section{
+    border: 1px solid black;
+    margin: 2% auto;
+    padding: 2%;
+}
+
+#clock-out, #testclock{
+    display: grid;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 200px;
+    width: 50%;
+    margin-left: 20%;
+    padding-left: 5%;
+}
+
+#clock2, #wrapper{
+    border: 20px solid white;
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+}
+#clock2:not(#clock){
+    font-size: 1rem;
+}
+#clock, #text{
+    font-size: 2rem;
+}
+#testclock{
+    width: 95%;
+    height: 400px;
+    margin: 0;
+}
